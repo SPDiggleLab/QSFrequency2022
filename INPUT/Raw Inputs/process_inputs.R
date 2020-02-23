@@ -4,27 +4,26 @@ rm(list=ls())
 
 require(readxl)
 
-if(!grepl('Raw', getwd())){setwd("Raw Inputs/")}
 
-files = list.files(pattern = '.xlsx')
+files = list.files('INPUT/Raw Inputs/', pattern = '.xlsx')
 ipcd_files = files[grepl('IPCD', files)]
 lab_files = files[!grepl('IPCD', files)]
 
 #add colnames to ipcds
 ipcd_colnames = c('INFO', 'SEQUENCE', 'MISMATCH', 'GAPS', 'PCT_ID', 'QUERY_COV', 'BIT_SCORE', 'E-VALUE')
 for(file in ipcd_files){
-  temp = read_xlsx(file, col_names = FALSE)
+  temp = read_xlsx(paste('INPUT/Raw Inputs/', file, sep='', collapse=''), col_names = FALSE)
   temp = data.frame(temp, stringsAsFactors = F)
   colnames(temp) = ipcd_colnames
   
-  temp_outName = paste('genes/', strsplit(file, '\\.')[[1]][1], '.csv', sep='', collapse = '')
+  temp_outName = paste('INPUT/genes/', strsplit(file, '\\.')[[1]][1], '.tsv', sep='', collapse = '')
   write.table(temp, temp_outName, sep='\t', row.names = F)
 }
 
 #add colnames to labs
 lab_colnames = c('STRAINID', 'COUNTRY', 'ANIMAL', 'SOURCE', 'ENV', 'PI', 'DETAILS')
 for(file in lab_files){
-  temp = read_xlsx(file, col_names = FALSE)
+  temp = read_xlsx(paste('INPUT/Raw Inputs/', file, sep='', collapse=''), col_names = FALSE)
   temp = data.frame(temp, stringsAsFactors = F)
   if(ncol(temp)==10){
     temp = temp[,-c(1,3,9)]
@@ -33,6 +32,6 @@ for(file in lab_files){
   }
   colnames(temp) = lab_colnames
   
-  temp_outName = paste('labs/', strsplit(file, '\\.')[[1]][1], '.csv', sep='', collapse = '')
+  temp_outName = paste('INPUT/labs/', strsplit(file, '\\.')[[1]][1], '.tsv', sep='', collapse = '')
   write.table(temp, temp_outName, sep='\t', row.names = F)
 }
