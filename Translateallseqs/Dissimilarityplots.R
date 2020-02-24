@@ -183,6 +183,20 @@ if(!file.exists('Full_dfRefPlot_Scores.R')){
   load('Full_dfRefPlot_Scores.R')
 }
 
+# Calculate means
+temp.genes = as.character(unique(df.refplots$gene))
+temp.out = data.frame('GENE' = NA, 'mean'=NA, 'N' = NA, 'sd' = NA)
+for(gene_in in temp.genes){
+  temp.data = df.refplots$score[df.refplots$gene == gene_in]
+  temp.mean = mean(temp.data)
+  temp.N = length(temp.data)
+  temp.sd = sd(temp.data)
+  temp.df = data.frame('GENE' = gene_in, 'mean'=temp.mean, 'N' = temp.N, 'sd' = temp.sd)
+  temp.out = rbind(temp.out, temp.df)
+}
+temp.out = temp.out[-1,]
+write.csv(temp.out, 'SUMMARY_STATS_PER_GENE.csv')
+
 ggplot(df.refplots, aes(x = gene, y= 1-score, color = gene)) + 
   geom_boxplot() +
   ylab("Dissimilarity") #+
