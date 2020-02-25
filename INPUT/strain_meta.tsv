@@ -1,0 +1,942 @@
+"STRAIN_ID"	"ALIAS_1"	"ALIAS_2"	"COUNTRY"	"HOST"	"SOURCE"	"ENV"	"PI"	"INCLUDE"
+"PA-W2"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Stephan Heeb"	TRUE
+"PA-W6"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W7"	NA	NA	"UK"	"Human"	NA	FALSE	"Stephan Heeb"	TRUE
+"PA-W8"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W9"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W11"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W12"	NA	NA	"UK"	"Human"	NA	FALSE	"Stephan Heeb"	TRUE
+"PA-W13"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W15"	NA	NA	"UK"	"Human"	NA	FALSE	"Stephan Heeb"	TRUE
+"PA-W17"	NA	NA	"UK"	"Human"	NA	FALSE	"Stephan Heeb"	TRUE
+"PA-W18"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W19"	NA	NA	"UK"	"Human"	NA	FALSE	"Stephan Heeb"	TRUE
+"PA-W20"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W22"	NA	NA	"UK"	"Human"	NA	FALSE	"Stephan Heeb"	TRUE
+"PA-W25"	NA	NA	"UK"	"Human"	NA	FALSE	"Stephan Heeb"	TRUE
+"PA-W26"	NA	NA	"UK"	"Human"	NA	FALSE	"Stephan Heeb"	TRUE
+"PA-W27"	NA	NA	"UK"	"Human"	NA	FALSE	"Stephan Heeb"	TRUE
+"PA-W30"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W34"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W35"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W41"	NA	NA	"UK"	"Human"	NA	FALSE	"Stephan Heeb"	TRUE
+"PA-W47"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W48"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W49"	NA	NA	"UK"	"Human"	NA	FALSE	"Stephan Heeb"	TRUE
+"2S030611BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"29S030611BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"37s051011BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"44s031011BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"44s031011BSL_PA2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"66S100212BSL _PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"128S180412BSL_PA2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"136S260811BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"136S260811BSL_PA2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"136S260811BSL_PA3"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"144S190811BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"144S190811BSL_PA2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"145S200511BSL_PA2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"175S070312EX2DAY21_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"175S070312EX2DAY21_PA2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"192S190811BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"192S190811BSL_PA2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"192S190811BSL_PA3"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"197S020911BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"197S020911BSL_PA2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"197S020911BSL_PA3"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"197S020911BSL_PA4"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"201s070911bsl_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"201s070911bsl_PA2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"259S240811BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"259S240811BSL_PA2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"266S141211BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"272S250511BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"274S010611BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"278S180511BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"278S180511BSL_PA2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"286S270711BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"293S080611BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"293S080611BSL_PA2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"295s071211BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"295s071211BSL_PA2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"298S020611BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"313s141011BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"318S170811BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"318S170811BSL_PA2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"320S290711BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"320S290711BSL_PA2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"326S290611BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"326S290611BSL_PA2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"326S290611BSL_PA3"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"333S200112BSL_PA1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Dao Nguyen"	TRUE
+"AMT0060-1"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"AMT0060-2"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"AMT0060-3"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"PAK"	NA	NA	NA	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"IST27"	NA	NA	"Portugal"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"IST27N"	NA	NA	"Portugal"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"968333S"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"679"	NA	NA	"Poland"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"NH57388A"	NA	NA	"Denmark"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"1709-12"	NA	NA	"Belgium"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"Mi162"	NA	NA	"USA"	"Human"	"WND"	FALSE	"Craig Winstanley"	TRUE
+"Jpn1563"	NA	NA	"Japan"	NA	NA	TRUE	"Craig Winstanley"	TRUE
+"LMG14084"	NA	NA	"Romania"	NA	NA	TRUE	"Craig Winstanley"	TRUE
+"Pr335"	NA	NA	"Czech Republic"	NA	NA	TRUE	"Craig Winstanley"	TRUE
+"U018A"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"CPHL9433"	NA	NA	"Philippines"	"Plant"	NA	TRUE	"Craig Winstanley"	TRUE
+"903"	NA	NA	"UK"	"Animal"	NA	FALSE	"Craig Winstanley"	TRUE
+"856"	NA	NA	"UK"	"Animal"	NA	FALSE	"Craig Winstanley"	TRUE
+"1098"	NA	NA	"UK"	"Animal"	NA	FALSE	"Craig Winstanley"	TRUE
+"982"	NA	NA	"UK"	"Animal"	NA	FALSE	"Craig Winstanley"	TRUE
+"1090"	NA	NA	"UK"	"Animal"	NA	FALSE	"Craig Winstanley"	TRUE
+"994"	NA	NA	"UK"	"Animal"	NA	FALSE	"Craig Winstanley"	TRUE
+"886-1"	NA	NA	"UK"	"Animal"	NA	FALSE	"Craig Winstanley"	TRUE
+"152504sp2"	NA	NA	"Portugal"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"AT7"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"AT19"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"AT31"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"AT40"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"934436V"	NA	NA	NA	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"39145"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"PAC54A"	"PA54"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC5A"	"PA5A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC5B"	"PA5B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC46A"	"PA46"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC61A"	"PA61"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC6A"	"PA6A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC6B"	"PA6B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC39A"	"PA39"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC74A"	"PA74"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC93A"	"PA93A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC93B"	"PA93B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC93C"	"PA93C"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC9A"	"PA9"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC10A"	"PA10A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC10B"	"PA10B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC107A"	"PA107"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC11A"	"PA11"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC79A"	"PA79A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC79B"	"PA79B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC106A"	"PA106"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC13A"	"PA13A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC13B"	"PA13B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC13C"	"PA13C"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC117A"	"PA117A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC117B"	"PA117B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC14B"	"PA14B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC15A"	"PA15A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC15B"	"PA15B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC17A"	"PA17A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC56A"	"PA56A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC56B"	"PA56B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC18A"	"PA18A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC18B"	"PA18B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC33A"	"PA33A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC33B"	"PA33b"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC78A"	"PA78A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC78B"	"PA78B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC22A"	"PA22"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC84A"	"PA84"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC94A"	"PA94"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC23A"	"PA23"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC44A"	"PA44A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC44B"	"PA44B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC44C"	"PA44C"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC44D"	"PA44D"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC108A"	"PA108"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC115A"	"PA115"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC118A"	"PA118"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC31A"	"PA31A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC31B"	"PA31B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC42A"	"PA42"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC70A"	"PA70A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC70B"	"PA70B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC80A"	"PA80"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC98A"	"PA98A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC98B"	"PA98B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC98C"	"PA98C"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC98D"	"PA98D"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC38A"	"PA38A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC38B"	"PA38B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC127A"	"PA127A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC127B"	"PA127B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC60A"	"PA60"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC76A"	"PA76"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC112A"	"PA112A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC81A"	"PA81A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC81B"	"PA81B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC91A"	"PA91"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC95A"	"PA95A"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC95B"	"PA95B"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"PAC97A"	"PA97"	NA	"CAN"	"Human"	"CF"	FALSE	"François Malouin"	TRUE
+"AUS127"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS183"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS185"	NA	NA	"Australia"	"Human"	"WND"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS186"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS518"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS195"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS205"	NA	NA	"Australia"	"Human"	"WND"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS207"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS465"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS438"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS209"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS210"	NA	NA	"Australia"	"Human"	"WND"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS213"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS214"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS502"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS217"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS221"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS525"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS222"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS258"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS225"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS226"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS227"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS229"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS232"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS275"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS423"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS462"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS452"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS083"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS088"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS343"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS407"	NA	NA	"Australia"	"Human"	"WND"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS476"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS301"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS460"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS471"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS516"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS517"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS321"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS339"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS306"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS328"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS504"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS327"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS058"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS336"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS238"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS355"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS277"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS389"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS283"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS527"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS265"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS304"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS523"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS026"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS029"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS702"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS054"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS066"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS073"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS077"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS089"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS093"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS503"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS105"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS106"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS110"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS111"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS119"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS120"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS122"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS124"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS125"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS128"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS134"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS136"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS138"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS139"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS311"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS141"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS148"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS506"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS150"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS151"	NA	NA	"Australia"	"Human"	"WND"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS153"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS154"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS155"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS156"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS157"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS158"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS165"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS174"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS175"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS176"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS177"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS178"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS392"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS430"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS464"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS483"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS485"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS489"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS491"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS496"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS499"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS500"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS501"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS505"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS507"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS510"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS511"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS512"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS526"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS449"	NA	NA	"Australia"	NA	NA	TRUE	"Timothy J. Kidd"	TRUE
+"AUS353"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS263"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS631"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS674"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS675"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS537"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS050"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS434"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS436"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS439"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS440"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS441"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS442"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS595"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS074"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS455"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS456"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS457"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS422"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS021"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS344"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS345"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS305"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS307"	NA	NA	"Australia"	"Human"	"non-CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS309"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS149"	NA	NA	"Australia"	"Animal"	NA	FALSE	"Timothy J. Kidd"	TRUE
+"AUS720"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS727"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS717"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AUS719"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Timothy J. Kidd"	TRUE
+"AMT0005-1"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0005-135"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0005-136"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0005-137"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0005-138"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0006-1"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0006-64"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0006-65"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0006-66"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0020-83"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0020-84"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0020-1"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0026-1"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0026-2"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0026-3"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0026-67"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0046-1"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0046-107"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0046-108"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0046-109"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0047-125"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0047-2"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"AMT0071-76"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Jane Burns"	TRUE
+"18G"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"19SJO"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"19SJV"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"19R"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"19SV"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"32SP"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"32SB"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"34JS"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"57SJ"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"57RV"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"78RV"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"Rsan-ver"	"PG201"	"DSM2659"	"Switzerland"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PUPa3"	NA	NA	"India"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL501"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL502"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL504"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL505"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL506b"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL507"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL508"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL509"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL510"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL511"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL512"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL513"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL514"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL515"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL516"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL517"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL518"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL519"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL520"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL521a"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL521b"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL522b"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL524"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL527"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL528"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL529"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL532"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL534a"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL534x"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL542a"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL542b"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL545b"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL547b"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"PA-CL549"	NA	NA	"CAN"	NA	NA	TRUE	"Eric Déziel"	TRUE
+"HPA4"	NA	NA	"France"	"Human"	"non-CF"	FALSE	"Tyrone Pitt and Jean-Paul Pirnay"	TRUE
+"HPA6"	NA	NA	"Holland"	"Human"	"non-CF"	FALSE	"Tyrone Pitt and Jean-Paul Pirnay"	TRUE
+"HPA8"	NA	NA	"Holland"	"Human"	"non-CF"	FALSE	"Tyrone Pitt and Jean-Paul Pirnay"	TRUE
+"HPA12"	NA	NA	"Italy"	"Human"	"non-CF"	FALSE	"Tyrone Pitt and Jean-Paul Pirnay"	TRUE
+"HPA16"	NA	NA	"Italy"	"Human"	"non-CF"	FALSE	"Tyrone Pitt and Jean-Paul Pirnay"	TRUE
+"HPA17"	NA	NA	"Italy"	"Human"	"non-CF"	FALSE	"Tyrone Pitt and Jean-Paul Pirnay"	TRUE
+"Co398373"	NA	NA	"Columbia"	NA	NA	TRUE	"Jean-Paul Pirnay"	TRUE
+"Co399645"	NA	NA	"Columbia"	"Human"	NA	FALSE	"Jean-Paul Pirnay"	TRUE
+"PN586(35)w"	NA	NA	"Panama"	"Human"	NA	FALSE	"Jean-Paul Pirnay"	TRUE
+"So098"	NA	NA	"Bulgaria"	"Human"	"WND"	FALSE	"Jean-Paul Pirnay"	TRUE
+"Li010"	NA	NA	"Portugal"	"Human"	"CF"	FALSE	"Jean-Paul Pirnay"	TRUE
+"A9"	NA	NA	"France"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"A10"	NA	NA	"France"	"Human"	"WND"	FALSE	"Gabriel Perron"	TRUE
+"A11"	NA	NA	"France"	"Human"	"WND"	FALSE	"Gabriel Perron"	TRUE
+"A13"	NA	NA	"France"	"Human"	"WND"	FALSE	"Gabriel Perron"	TRUE
+"A15"	NA	NA	"France"	"Human"	"WND"	FALSE	"Gabriel Perron"	TRUE
+"A17"	NA	NA	"France"	"Human"	"non-CF"	FALSE	"Gabriel Perron"	TRUE
+"A19"	NA	NA	"France"	"Human"	"WND"	FALSE	"Gabriel Perron"	TRUE
+"A22"	NA	NA	"France"	"Human"	"WND"	FALSE	"Gabriel Perron"	TRUE
+"A237"	NA	NA	"France"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"Mex2"	NA	NA	"Mexico"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"SWPA15J=NSWPA15a"	NA	NA	"Belgium"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"C5311"	NA	NA	"CAN"	NA	"CF"	FALSE	"Gabriel Perron"	TRUE
+"59.2"	NA	NA	"UK"	"Plant"	NA	TRUE	"Gabriel Perron"	TRUE
+"CN573=PSE143"	NA	NA	"Georgian Republic"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"CND03"	NA	NA	"Georgian Republic"	"Human"	"WND"	FALSE	"Gabriel Perron"	TRUE
+"ESP06B"	NA	NA	"Belgium"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"5BR2"	NA	NA	"Belgium"	"Human"	"CF"	FALSE	"Gabriel Perron"	TRUE
+"9AR3"	NA	NA	"Belgium"	"Human"	"CF"	FALSE	"Gabriel Perron"	TRUE
+"C3128"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Gabriel Perron"	TRUE
+"Co380791"	NA	NA	"Colombia"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"IC1"	NA	NA	"India"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"IDEXX_Canine4"	NA	NA	"UK"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"IDEXX_Canine8"	NA	NA	"UK"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"CPHL950"	NA	NA	"USA"	NA	NA	FALSE	"Gabriel Perron"	TRUE
+"CPHL1999"	NA	NA	"UK"	NA	NA	FALSE	"Gabriel Perron"	TRUE
+"CPHL2000"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Gabriel Perron"	TRUE
+"CPHL5083"	NA	NA	"UK"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"CPHL6749"	NA	NA	"UK"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"CPHL8058"	NA	NA	"USA"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"CPHL8203"	NA	NA	"UK"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"CPHL10299"	NA	NA	"UK"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"CPHL10662"	NA	NA	"UK"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"CPHL10701"	NA	NA	"UK"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"Tu61"	NA	NA	"Tunisia"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"J9UH1F"	NA	NA	"USA"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"J80UH1OS1"	NA	NA	"USA"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"Jp54"	NA	NA	"Japan"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"Jp60"	NA	NA	"Japan"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"Jp97"	NA	NA	"Japan"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"Jp100"	NA	NA	"Japan"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"Jp222"	NA	NA	"Japan"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"Jp224"	NA	NA	"Japan"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"Jp238"	NA	NA	"Japan"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"Jp241"	NA	NA	"Japan"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"Jp245"	NA	NA	"Japan"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"Jp1140"	NA	NA	"Japan"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"Jp1155"	NA	NA	"Japan"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"Jp1170"	NA	NA	"Japan"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"Jp1200"	NA	NA	"Japan"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"Jp1206"	NA	NA	"Japan"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"Jp1303"	NA	NA	"Japan"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"LiA131_2005"	NA	NA	"Portugal"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"LiA133_2003"	NA	NA	"Portugal"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"LiA145_2005"	NA	NA	"Portugal"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"LiA161_2005"	NA	NA	"Portugal"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"LiA179_2006"	NA	NA	"Portugal"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"LiA18_2003"	NA	NA	"Portugal"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"LiA50_2005"	NA	NA	"Portugal"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"LiA63_2006"	NA	NA	"Portugal"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"LiA91_2004"	NA	NA	"Portugal"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"LiA96_2004"	NA	NA	"Portugal"	"Animal"	NA	FALSE	"Gabriel Perron"	TRUE
+"PHLS08916"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Gabriel Perron"	TRUE
+"PHLS08959"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Gabriel Perron"	TRUE
+"W15Apr4"	NA	NA	"Belgium"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"W15Aug23"	NA	NA	"Belgium"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"W15Dec14"	NA	NA	"Belgium"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"W15Dec3"	NA	NA	"Belgium"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"W15Dec4"	NA	NA	"Belgium"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"W15Okt31"	NA	NA	"Belgium"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"W5Aug16"	NA	NA	"Belgium"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"W5Aug28"	NA	NA	"Belgium"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"Br670"	NA	NA	"Belgium"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"Lo049"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Gabriel Perron"	TRUE
+"Mi159"	NA	NA	"USA"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"Aa249"	NA	NA	"Germany"	"Human"	"WND"	FALSE	"Gabriel Perron"	TRUE
+"Us411"	NA	NA	"USA"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"Bo559"	NA	NA	"USA"	"Human"	"WND"	FALSE	"Gabriel Perron"	TRUE
+"Br993"	NA	NA	"Belgium"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"Cotonu1"	NA	NA	"Benin"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"LMG2107"	NA	NA	"Puerto Rico"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"LMG5031"	NA	NA	"Puerto Rico"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"Lw1047"	NA	NA	"Congo"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"PhDW6"	NA	NA	"Philippines"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"PT31M"	NA	NA	"Germany"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"Tu863"	NA	NA	"Tunisia"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"TuD199"	NA	NA	"Tunisia"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"Pae110"	NA	NA	"CAN"	NA	NA	TRUE	"Gabriel Perron"	TRUE
+"JD303"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Gabriel Perron"	TRUE
+"PMM38"	NA	NA	"Korea"	"Human"	NA	FALSE	"Gabriel Perron"	TRUE
+"S2239"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"S2239"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"S2820"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"MSB2949"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"S1983"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"MSB3405"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"U0272B"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"U0284"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"U0288B"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"U0306"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"U0310A"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"U0330A"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"U350"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"U372"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"U397A"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"U413A"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"U421"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"U435"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"U451"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"U454A"	NA	NA	"Australia"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-001B"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-001C"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-001-2A"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-001-2B"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-001-3A"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-001-3B"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-001-4"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"001-5A"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"001-5B"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"001-6"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-002C"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-003B"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-004"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-006"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-007-2"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-008"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-009B"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"010-4"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-013"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"014-2A"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-015A"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-018"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"020MIC"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-024-1"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"DUN-001A"	NA	NA	"New Zealand"	"Human"	"CF"	FALSE	"Iain Lamont"	TRUE
+"A3"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"B2"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"C3"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"D1"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"E2"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"F2"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"G2"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"H3"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP1a"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP1c"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP1d"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP2a"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP2b"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP2c"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP3"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP4"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP5"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP6"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP7"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP8"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP9"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP10a"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP10b"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP11"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP12"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP13"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"LiP14"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Jane Turton and Dervla Kenna"	TRUE
+"AUS23"	"AES2"	"AUST-02"	"Australia"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"D3(3141)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"E3(T3979)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"B1(P2356)"	NA	NA	"Thailand"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"A9(P2733)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"B6(P2404)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"B5(2810)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"C7(T3583)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"B4(U2816)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"A1(A2448)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"B3(T2101)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"A3(H638)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"B2(E2758)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"B8(T2584)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"D8(T3382)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"B9(T2436)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"E4(T4242)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"D1(T3354)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"D5(T3677)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"E1(T4189)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"C8(T3532)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"C6(T3044)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"C9(P1814)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"A8(P1885)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"E9(4068)"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"HM293"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"HM294"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"HM299"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"HM300"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"HM301"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"HM306"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"HM307"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"HM308"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"HM324"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"D9 3362"	NA	NA	"Thailand"	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"E2"	NA	NA	"USA"	"Plant"	NA	TRUE	"Joe J. Harrison"	TRUE
+"CF5"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Joe J. Harrison"	TRUE
+"CF27"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Joe J. Harrison"	TRUE
+"CF127"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Joe J. Harrison"	TRUE
+"62"	NA	NA	"USA"	NA	NA	TRUE	"Joe J. Harrison"	TRUE
+"JJ692"	NA	NA	"USA"	"Human"	"non-CF"	FALSE	"Joe J. Harrison"	TRUE
+"MSH3"	NA	NA	"USA"	NA	NA	TRUE	"Joe J. Harrison"	TRUE
+"MSH10"	NA	NA	"USA"	NA	NA	TRUE	"Joe J. Harrison"	TRUE
+"S54485"	NA	NA	"USA"	"Human"	"non-CF"	FALSE	"Joe J. Harrison"	TRUE
+"U2504"	NA	NA	"USA"	"Human"	"non-CF"	FALSE	"Joe J. Harrison"	TRUE
+"X24509"	NA	NA	"USA"	"Human"	"non-CF"	FALSE	"Joe J. Harrison"	TRUE
+"HB159"	NA	NA	"Portugal"	"Human"	NA	FALSE	"Pedro Santos"	TRUE
+"HB392"	NA	NA	"Portugal"	"Human"	NA	FALSE	"Pedro Santos"	TRUE
+"JYH6"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH7"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH8"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH9"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH10"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH11"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH12"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH13"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH14"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH15"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH16"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH17"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH18"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH19"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH21"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH22"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH23"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH24"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH25"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH26"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH28"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"JYH29"	NA	NA	"Japan"	NA	NA	TRUE	"Robert Hancock"	TRUE
+"B175"	NA	NA	"Brazil"	"Human"	NA	FALSE	"Robert Hancock"	TRUE
+"B211"	NA	NA	"Brazil"	"Human"	NA	FALSE	"Robert Hancock"	TRUE
+"B205"	NA	NA	"Brazil"	"Human"	NA	FALSE	"Robert Hancock"	TRUE
+"B172"	NA	NA	"Brazil"	"Human"	NA	FALSE	"Robert Hancock"	TRUE
+"B21"	NA	NA	"Brazil"	"Human"	NA	FALSE	"Robert Hancock"	TRUE
+"B36"	NA	NA	"Brazil"	"Human"	NA	FALSE	"Robert Hancock"	TRUE
+"C3719"	NA	NA	"UK"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"AES-1R"	"AUST-01"	"AES-1"	"Australia"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"AUS52"	"AUST-03"	"AES-3"	"Australia"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"AA2"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"AMT0023-30"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"AMT0023-34"	NA	NA	"USA"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"CHA"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"39016"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"Mi162_2"	NA	NA	"USA"	"Human"	"WND"	FALSE	"Craig Winstanley"	TRUE
+"15108-1"	NA	NA	"Spain"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"13121-1"	NA	NA	"France"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"39177"	NA	NA	"UK"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"KK1"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"A5803"	NA	NA	NA	"Human"	NA	FALSE	"Craig Winstanley"	TRUE
+"TBCF10839"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"57P31PA"	NA	NA	"USA"	"Human"	"non-CF"	FALSE	"Craig Winstanley"	TRUE
+"AA43"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"AA44"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Craig Winstanley"	TRUE
+"PA-W1"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W3"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W4"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W5"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W10"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W14"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W16"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W21"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W23"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W24"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W28"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W29"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W31"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W32"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W33"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W36"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W37"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W38"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W39"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W42"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W43"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W44"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W45"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"PA-W46"	NA	NA	"UK"	"Human"	"WND"	FALSE	"Stephan Heeb"	TRUE
+"5985"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5987"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5988.2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5988.3"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5989"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5990.1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5990.2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5990.3"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5991"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5992"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5993"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5994"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5995"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5996"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5997"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5998"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5999.1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5999.2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"5999.3"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6000.1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6000.2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6000.3"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6001"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6003"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6004"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6085"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6086.1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6086.2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6087"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6088"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6089"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6090"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6091"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6092.2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6092.3"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6093"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6095"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6096"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6097.1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6097.3"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6098"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6099"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"6102"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Julie Milot"	TRUE
+"AL191"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"AL363(Israel 14)"	NA	NA	"Israel"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"AL561"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"AL206"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"AL430(Israel36)"	NA	NA	"Israel"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"AL879"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"AL922"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"AL1018(Israel91)"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"AL134"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"AL149"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"AL178"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"AL104"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"AL182"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"AL199"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"HJ2"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"H2"	NA	NA	"Germany"	NA	NA	TRUE	"Burkhard Tümmler"	TRUE
+"SS1"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"PD1"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"Zw92"	NA	NA	"France"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"Zw31"	NA	NA	"Austria"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"Zw49"	NA	NA	"Italy"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"Zw64"	NA	NA	"Sweden"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"PT6"	NA	NA	"Germany"	NA	NA	TRUE	"Burkhard Tümmler"	TRUE
+"PT12"	NA	NA	"Germany"	NA	NA	TRUE	"Burkhard Tümmler"	TRUE
+"Zw9"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"Zw115"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"Zw5"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"Zw70"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"HCF19"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"HCF483"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"HCF55"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"HCF86"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"HCF100"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"HCF238"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"HCF331"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"HCF336"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"HCF367"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"HCF410"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"HCF5"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"HCF591"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"HCF73"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"BJ4"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"OY3"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"BJ2"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"FM4"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"SC1"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"NN5"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"OY15"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"Zw64_2"	NA	NA	"Sweden"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"Zw73_2"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"Zw75_2"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"Zw73_1"	NA	NA	"Germany"	"Human"	"CF"	FALSE	"Burkhard Tümmler"	TRUE
+"VD706"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"VD329"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"297"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"VD564"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"VD171"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"VD609"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"403"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"585"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"359"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"E-500"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"392"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"279"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"358"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"578-A"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"PPF-18"	NA	NA	"CAN"	NA	NA	TRUE	"Steve Charette"	TRUE
+"Ortho-1"	NA	NA	"CAN"	NA	NA	TRUE	"Steve Charette"	TRUE
+"Chir_D-144_assitant"	NA	NA	"CAN"	NA	NA	TRUE	"Steve Charette"	TRUE
+"Urg-7"	NA	NA	"CAN"	NA	NA	TRUE	"Steve Charette"	TRUE
+"Urg-5"	NA	NA	"CAN"	NA	NA	TRUE	"Steve Charette"	TRUE
+"PPF-19"	NA	NA	"CAN"	NA	NA	TRUE	"Steve Charette"	TRUE
+"PPF-20"	NA	NA	"CAN"	NA	NA	TRUE	"Steve Charette"	TRUE
+"PPF-13"	NA	NA	"CAN"	NA	NA	TRUE	"Steve Charette"	TRUE
+"578-B"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"506"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"PPF-2"	NA	NA	"CAN"	NA	NA	TRUE	"Steve Charette"	TRUE
+"PPF-1"	NA	NA	"CAN"	NA	NA	TRUE	"Steve Charette"	TRUE
+"PPF-21"	NA	NA	"CAN"	NA	NA	TRUE	"Steve Charette"	TRUE
+"PPF-7"	NA	NA	"CAN"	NA	NA	TRUE	"Steve Charette"	TRUE
+"Chir_D-144"	NA	NA	"CAN"	NA	NA	TRUE	"Steve Charette"	TRUE
+"E1-WATER-2"	NA	NA	"CAN"	NA	NA	TRUE	"Karen Liljebjelke"	TRUE
+"E2-DN-2"	NA	NA	"CAN"	NA	NA	TRUE	"Karen Liljebjelke"	TRUE
+"F1-DN-2"	NA	NA	"CAN"	NA	NA	TRUE	"Karen Liljebjelke"	TRUE
+"G1-WATER-2A"	NA	NA	"CAN"	NA	NA	TRUE	"Karen Liljebjelke"	TRUE
+"4124363505"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5054407658-16"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5054407658-17"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"41004355322"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5024379144-14"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5024379144-15"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"4094345258"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"4094345290"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5034388498-20"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5034388498-21"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"4064320487"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5054408350-18"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5054408350-20"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5054408350-22"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5034388513"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"3052425557"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"4064321111"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"4094341901"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"4044301968"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"2032935751"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"9092533235"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"4124363474-15"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"4124363474-14"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"1042828174-20"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"1042828174-21"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"2042723558"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5024382749-13"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5024382749-14"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"4114358565"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5054408352"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"110238627"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"4104355340-15"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"4104355340-13"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5024382738-26"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5024382738-25"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5023272159"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5014375428"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5024383182"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"3020837212"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5054408345"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"4084334344"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"4104355315"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"5014375233"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"4084336477"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"3052425557"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Clara Popa"	TRUE
+"3"	"TNCF_3"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"4M"	"TNCF_4M"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"6"	"TNCF_6"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"7M"	"TNCF_7M"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"10"	"TNCF_10"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"10M"	"TNCF_10M"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"12"	"TNCF_12"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"13"	"TNCF_13"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"14"	"TNCF_14"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"16"	"TNCF_16"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"23"	"TNCF_23"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"23M"	"TNCF_23M"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"32"	"TNCF_32"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"32M"	"TNCF_32M"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"42"	"TNCF_42"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"42M"	"TNCF_42M"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"49M"	"TNCF_49M"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"68"	"TNCF_68"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"69"	"TNCF_69"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"76"	"TNCF_76"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"85"	"TNCF_85"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"88M"	"TNCF_88M"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"101"	"TNCF_101"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"105"	"TNCF_105"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"106"	"TNCF_106"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"109"	"TNCF_109"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"130"	"TNCF_130"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"133"	"TNCF_133"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"133-1"	"TNCF_133_1"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"151"	"TNCF_151"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"151M"	"TNCF_151M"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"154"	"TNCF_154"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"155"	"TNCF_155"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"155-1"	"TNCF_155_1"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"165"	"TNCF_165"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"167"	"TNCF_167"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"167-1"	"TNCF_167_1"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"174"	"TNCF_174"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"175"	"TNCF_175"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"176"	"TNCF_176"	NA	"Italy"	"Human"	"CF"	FALSE	"Olivier Jousson"	TRUE
+"146 Assistante"	NA	NA	"CAN"	NA	NA	TRUE	"Steve Charette"	TRUE
+"151 Assistante"	NA	NA	"CAN"	NA	NA	TRUE	"Steve Charette"	TRUE
+"Site 7"	NA	NA	"CAN"	NA	NA	TRUE	"Steve Charette"	TRUE
+"707A"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"282"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"462"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"265"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"354"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"712"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"173"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Steve Charette"	TRUE
+"ATCC BAA-2108"	NA	NA	NA	"Human"	"CF"	FALSE	"ATCC/Chiron/Novartis"	TRUE
+"ATCC BAA-2109"	NA	NA	NA	"Human"	"CF"	FALSE	"ATCC/Chiron/Novartis"	TRUE
+"ATCC BAA-2110"	NA	NA	NA	"Human"	"CF"	FALSE	"ATCC/Chiron/Novartis"	TRUE
+"ATCC BAA-2111"	NA	NA	NA	"Human"	"CF"	FALSE	"ATCC/Chiron/Novartis"	TRUE
+"ATCC BAA-2112"	NA	NA	NA	"Human"	"CF"	FALSE	"ATCC/Chiron/Novartis"	TRUE
+"ATCC BAA-2113"	NA	NA	NA	"Human"	"CF"	FALSE	"ATCC/Chiron/Novartis"	TRUE
+"ATCC BAA-2114"	NA	NA	NA	"Human"	"CF"	FALSE	"ATCC/Chiron/Novartis"	TRUE
+"1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"2.1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"3"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"4"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"5"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"6"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"7"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"8"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"9"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"10"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"11"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"12"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"13"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"14.1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"14.2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"15"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"16"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"17"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"18"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"19"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"20"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"21"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"22.1"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"22.2"	NA	NA	"CAN"	"Human"	"CF"	FALSE	"Christian Allard, Maryse Bandet"	TRUE
+"SMC1585"	NA	NA	"USA"	"Human"	"CF"	FALSE	"George O'Toole"	TRUE
+"SMC1587"	NA	NA	"USA"	"Human"	"CF"	FALSE	"George O'Toole"	TRUE
+"SMC1595"	NA	NA	"USA"	"Human"	"CF"	FALSE	"George O'Toole"	TRUE
+"SMC1596"	NA	NA	"USA"	"Human"	"CF"	FALSE	"George O'Toole"	TRUE
+"SMC5450"	NA	NA	"USA"	"Human"	"CF"	FALSE	"George O'Toole"	TRUE
+"SMC5451"	NA	NA	"USA"	"Human"	"CF"	FALSE	"George O'Toole"	TRUE
+"20CFBRPA"	NA	NA	NA	NA	NA	NA	"George O'Toole"	TRUE
+"32CFBRPA"	NA	NA	NA	NA	NA	NA	"George O'Toole"	TRUE
+"33CFBRPA"	NA	NA	NA	NA	NA	NA	"George O'Toole"	TRUE
+"43CFBRPA"	NA	NA	NA	NA	NA	NA	"George O'Toole"	TRUE
