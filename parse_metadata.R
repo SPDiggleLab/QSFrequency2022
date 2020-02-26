@@ -5,9 +5,6 @@ require(readxl)
 temp.in = read_xlsx('INPUT/STRAIN_METADATA.xlsx')
 temp.in = data.frame(temp.in, stringsAsFactors = F)
 
-# Remove if Host or Human.Pathology is missing
-#temp.in = temp.in[(!is.na(temp.in$Host)),]
-
 v.humanPathoCodes = c('Spine pressure sore' = 'non-CF'
                     , 'Wound' = 'WND'
                     , 'Ulcer' = 'WND'
