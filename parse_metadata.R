@@ -1,10 +1,17 @@
 rm(list=ls())
+## 04.11.2020 - CYZ
 # This is a custom script to generate a standardized metadata output by lab from STRAIN_METADATA.xlsx
+# STRAIN_METADATA.xlsx is pulled from IPCD database
 
 require(readxl)
+
+
+# (0) Load STRAIN_METADATA.xlsx -------------------------------------------
+
 temp.in = read_xlsx('INPUT/STRAIN_METADATA.xlsx')
 temp.in = data.frame(temp.in, stringsAsFactors = F)
 
+# Standardize Human Pathogen Codes
 v.humanPathoCodes = c('Spine pressure sore' = 'non-CF'
                     , 'Wound' = 'WND'
                     , 'Ulcer' = 'WND'
@@ -28,12 +35,16 @@ v.humanPathoCodes = c('Spine pressure sore' = 'non-CF'
                     , 'Cystis fibrosis' = 'CF'
                     , 'Cystic Fibrosis' = 'CF')
 
+# Standardize country Codes
 v.countryCodes = unique(temp.in$Isolate.Country)
 names(v.countryCodes) = v.countryCodes
 temp.countryCodes = c('United Kingdom' = 'UK'
                    , 'United States' = 'USA'
                    , 'Canada' = 'CAN')
 v.countryCodes[names(temp.countryCodes)] = temp.countryCodes
+
+
+# (1) Create Standardized df.meta -----------------------------------------
 
 # Create New Metadata
 df.meta = data.frame('STRAIN_ID' = temp.in$Original.ID
@@ -46,5 +57,7 @@ df.meta = data.frame('STRAIN_ID' = temp.in$Original.ID
                      , 'PI' = temp.in$Researcher.Name
                      , 'INCLUDE' = T)
 
-# Save result by lab
+
+# (2) Save ----------------------------------------------------------------
+
 write.table(df.meta, 'INPUT/strain_meta.tsv', sep='\t', row.names=F)
