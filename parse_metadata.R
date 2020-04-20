@@ -1,14 +1,14 @@
 rm(list=ls())
 ## 04.11.2020 - CYZ
 # This is a custom script to generate a standardized metadata output by lab from STRAIN_METADATA.xlsx
-# STRAIN_METADATA.xlsx is pulled from IPCD database
+# STRAIN_METADATA.xlsx is a handmade data table copied and pasted from the IPCD web browser
 
 require(readxl)
 
 
 # (0) Load STRAIN_METADATA.xlsx -------------------------------------------
 
-temp.in = read_xlsx('INPUT/STRAIN_METADATA.xlsx')
+temp.in = read_xlsx('INPUT/RAW_INPUTS/STRAIN_METADATA.xlsx')
 temp.in = data.frame(temp.in, stringsAsFactors = F)
 
 # Standardize Human Pathogen Codes
@@ -61,3 +61,8 @@ df.meta = data.frame('STRAIN_ID' = temp.in$Original.ID
 # (2) Save ----------------------------------------------------------------
 
 write.table(df.meta, 'INPUT/strain_meta.tsv', sep='\t', row.names=F)
+
+
+# (3) Cleanup -------------------------------------------------------------
+
+rm(df.meta, temp.in, temp.countryCodes, v.countryCodes, v.humanPathoCodes)
