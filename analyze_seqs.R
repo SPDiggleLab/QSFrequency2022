@@ -7,7 +7,6 @@ require(factoextra)
 require(ape)
 require(vegan)
 
-
 TRUNCATION_CUTOFF = 1
 
 # (0) Helpers -------------------------------------------------------------
@@ -143,7 +142,7 @@ write.csv(df.truncations, file = 'OUTPUT/gene_truncated_stats.csv')
 
 # (3) Calculate Distance Matrices -----------------------------------------
 
-if(!file.exists('list_of_strain_distMats_by_gene.R')){
+if(!file.exists('OBJECTS/list_of_strain_distMats_by_gene.R')){
   ls.distMats_by_gene = list()
   
   for(gene in names(ls.complete_genes)){
@@ -189,6 +188,6 @@ if(!file.exists('list_of_strain_distMats_by_gene.R')){
     ls.distMats_by_gene[[gene]] = df.distMat_by_strain
   }
   
-  save(ls.distMats_by_gene, file='list_of_strain_distMats_by_gene.R')
+  save(ls.distMats_by_gene, file='OBJECTS/list_of_strain_distMats_by_gene.R')
 }
 
