@@ -10,5 +10,9 @@ rm(list=ls())
 
 source('process_inputs.R')
 source('parse_metadata.R')
+source('parse_inputs.R')
 
-#
+
+# (2) Analyze sequences ---------------------------------------------------
+
+source('analyze_seqs.R')

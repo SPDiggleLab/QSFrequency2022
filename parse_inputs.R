@@ -6,6 +6,8 @@ rm(list=ls())
 #  (0) Helpers ------------------------------------------------------------
 
 Fix_Known_Database_Discrepancies = function(strains){
+  # Some of the entries in the IPCD database online dont' agree with what's keyed in NCBI.
+  # This is a correction of what I noticed were some mismatches.
   ret = strains
   ret = as.vector(gsub('MCF', 'AL', ret))
   return(ret)
