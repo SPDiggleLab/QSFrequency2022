@@ -35,7 +35,7 @@ for(gene in names(ls.distMats_by_gene)){
   , error = function(cond) {
     df.dist_in = unique(t(unique(df.dist)))
     meta_in = meta[rownames(meta),]
-    p_pca = fviz_pca_ind(princomp(df.d  ist_in), label = '', invisible="quali", pointsize = 2)
+    p_pca = fviz_pca_ind(princomp(df.dist_in), label = '', invisible="quali", pointsize = 2)
     ggsave(filename = paste('./OUTPUT/PCAs/pca_', gene, '.png', sep='', collapse = '')
            , plot = p_pca
            , device = 'png')

@@ -1,6 +1,8 @@
 rm(list=ls())
 ## 04.11.2020 - CYZ
 ## This script loads all lab inputs and creates a master input data file.
+## The entries in the data are quality controlled:
+## -- Sequences must have START codon.
 
 
 #  (0) Helpers ------------------------------------------------------------

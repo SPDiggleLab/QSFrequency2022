@@ -16,3 +16,7 @@ source('parse_inputs.R')
 # (2) Analyze sequences ---------------------------------------------------
 
 source('analyze_seqs.R')
+
+# (3) Visualizations
+
+source('visualize_distances.R')
