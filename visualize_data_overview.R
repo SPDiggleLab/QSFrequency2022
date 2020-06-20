@@ -50,7 +50,6 @@ nBases_lasR = nchar(lasR_ref)*3
 df.lasR_meta$TRUNCATED = ifelse(as.vector(b.truncs), 'FULL', 'TRUNC')#sapply(df.lasR_meta$SEQUENCE, function(x){nchar(x) < nBases_lasR})
 df.lasR_meta$SEQUENCE = NULL # remove SEQ for easier reading
 
-sum(df.lasR_meta$TRUNCATED)
 
 # If SOURCE is NA and HOST is HUMAN, assign source to non-CF
 df.lasR_meta$SOURCE[(is.na(df.lasR_meta$SOURCE) & df.lasR_meta$HOST == 'Human')] = 'non-CF'
@@ -110,7 +109,8 @@ fig1_full = plot_grid(fig1a, fig1b, fig1c
                       , nrow = 1
                       , rel_widths = c(1, 1.5, 1.5))
 fig1_full
-fig2_full = plot_grid(fig2a, fig2b, labels = c('A', 'B'))
+fig2_full = plot_grid(fig2a, fig2b, labels = c('A', 'B')
+                      , rel_widths = c(1, 2))
 fig2_full
 
 
