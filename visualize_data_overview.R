@@ -114,4 +114,9 @@ fig2_full = plot_grid(fig2a, fig2b, labels = c('A', 'B')
 fig2_full
 
 
+# ad hoc 07.12.2020: what are the % truncations
+lapply(split(df.lasR_meta, df.lasR_meta$GROUP), function(x){
+  sum(x$TRUNCATED == 'TRUNC')/nrow(x)
+})
+
 
