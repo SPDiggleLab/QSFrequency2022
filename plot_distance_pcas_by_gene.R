@@ -15,8 +15,10 @@ for(gene in names(ls.distMats_by_gene)){
   rownames(meta) = meta$STRAIN
   meta = meta[rownames(df.dist),] # order w.r.t. df.dist
   
+  meta$SOURCE[meta$ENV] = 'ENV'
+  meta$SOURCE[meta$SOURCE == 'non-CF'] = 'WND'
   b.has_SOURCE = !is.na(meta$SOURCE)
-  
+    
   df.dist = data.matrix(df.dist)
   df.dist = df.dist[b.has_SOURCE, b.has_SOURCE]
 

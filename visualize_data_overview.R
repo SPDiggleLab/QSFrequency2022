@@ -98,7 +98,8 @@ fig1c = ls.pcas[['lasI']] +
   ggtitle('')
 
 fig2a = ggplot(df.lasR_meta, aes(x = GROUP, fill = TRUNCATED)) + 
-  geom_bar(stat = 'count', color = 'black')
+  geom_bar(stat = 'count', color = 'black') + 
+  xlab('')
   
 
 fig2b = ls.pcas[['lasR']]
