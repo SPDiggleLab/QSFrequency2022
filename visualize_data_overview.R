@@ -59,7 +59,7 @@ df.lasR_meta$ENV[df.lasR_meta$HOST == 'Animal'] = TRUE
 
 # Add a GROUP column for plotting
 df.lasR_meta$GROUP = ifelse(df.lasR_meta$ENV, 'ENV', df.lasR_meta$SOURCE)
-df.lasR_meta$GROUP[df.lasR_meta$GROUP == 'WND'] = 'non-CF' # combine WND and non-CF
+df.lasR_meta$GROUP[df.lasR_meta$GROUP == 'non-CF'] = 'WND' # combine WND and non-CF
 
 
 # PLOT --------------------------------------------------------------------
