@@ -16,7 +16,7 @@ for(gene in names(ls.distMats_by_gene)){
   meta = meta[rownames(df.dist),] # order w.r.t. df.dist
   
   meta$SOURCE[meta$ENV] = 'ENV'
-  meta$SOURCE[meta$SOURCE == 'non-CF'] = 'WND'
+  meta$SOURCE[meta$SOURCE == 'non-CF'] = NA # Remove non_CF (08.20.2020)
   b.has_SOURCE = !is.na(meta$SOURCE)
     
   df.dist = data.matrix(df.dist)
@@ -45,8 +45,8 @@ for(gene in names(ls.distMats_by_gene)){
   }
   , error = function(cond) {
     df.dist_in = unique(t(unique(df.dist)))
-    meta_in = meta[rownames(meta),]
-    p_pca = fviz_pca_ind(princomp(df.dist_in), label = '', invisible="quali", pointsize = 2)
+    meta_in = meta[rownames(df.dist_in),]
+    p_pca = fviz_pca_ind(princomp(df.dist_in), label = '', invisible="quali", pointsize = 2, habillage = meta_in$SOURCE)
     temp.pcas = list()
     temp.pcas[[gene]] = p_pca
     save(temp.pcas, file = paste('./temp/PCA_', gene, '.R', sep=''))
