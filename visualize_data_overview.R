@@ -2,6 +2,7 @@ rm(list=ls())
 require(ggplot2)
 require(reshape2)
 require(Biostrings)
+require(cowplot)
 
 # Load Data
 load('OBJECTS/gene_trunc_stats.R')
@@ -10,6 +11,9 @@ load('OBJECTS/PCA_VIZ.R')
 
 df.truncations$similarity_mean = NA
 df.truncations$similarity_sd = NA
+
+temp.truncDist = list()
+
 for(gene in names(ls.refDist_by_gene)){
   # Get Reference
   ref_aminos = read.table(paste('INPUT/ref_genes/', gene, '_PAO1_protein.txt', sep='', collapse='')
@@ -32,7 +36,12 @@ for(gene in names(ls.refDist_by_gene)){
   
   df.truncations[gene, 'similarity_mean'] = mean_dist
   df.truncations[gene, 'similarity_sd'] = sd_dist
+  
+  # for plotting histogram
+  temp.truncDist[[gene]] = data.frame('gene' = gene, 'dist' = v.dist, 'same' = 0+(v.dist!=1))
 }
+
+temp.truncDist_df = do.call('rbind', temp.truncDist)
 
 # For Fig 2a
 df.lasR_meta = ls.complete_gene_MetaSeq[['lasR']][,c('GENE', 'HOST', 'SOURCE', 'ENV', 'SEQUENCE')]
@@ -86,6 +95,27 @@ fig1a2 = ggplot(df.truncations, aes(x = n_base, y = similarity_mean)) +
   ylab('Normalized Similarity Score') +
   xlim(600, 1600)
 
+fig1a3 = ggplot(df.truncations, aes(x = gene)) + 
+  theme_gray(base_size = 14) +
+  geom_bar(color = 'grey30', stat='identity', alpha = 0.4, fill = 'grey10', aes(y = n_unique_strains)) + 
+  geom_bar(color = 'black', stat='identity', alpha = 0.9, aes(y = n_unique_seqs, fill = sapply(df.truncations$gene, function(x){substr(x,1,3)}))) + 
+  scale_fill_brewer(palette = 'Paired') +
+  theme(legend.title=element_blank()) + 
+  ylab('n sequences') + 
+  xlab('')
+fig1a3
+
+fig1a4 = ggplot(temp.truncDist_df, aes(x = gene, y = 1-dist, fill = sapply(temp.truncDist_df$gene, function(x){substr(x,1,3)}))) + 
+  theme_gray(base_size = 14) + 
+  geom_boxplot() + 
+  scale_y_log10() + 
+  scale_fill_brewer(palette = 'Paired') +
+  theme(legend.title=element_blank()) + 
+  xlab('') + 
+  ylab('dissimilarity')
+
+
+
 fig1b = ls.pcas[['lasR']] +
   theme_gray(base_size = 14) + 
   geom_point(color = 'black', size = 3) + 
@@ -105,11 +135,10 @@ fig2a = ggplot(df.lasR_meta, aes(x = GROUP, fill = TRUNCATED)) +
 
 fig2b = ls.pcas[['lasR']]
 
-require(cowplot)
-fig1_full = plot_grid(fig1a, fig1b, fig1c
-                      , labels = c('A', 'B', 'C')
-                      , nrow = 1
-                      , rel_widths = c(1, 1.5, 1.5))
+fig1_full = plot_grid(fig1a3, fig1b, fig1a4, fig1c
+                      , labels = c('A', 'B', 'C', 'D')
+                      , nrow = 2
+                      , rel_widths = c(1.5, 1, 1.5, 1))
 fig1_full
 fig2_full = plot_grid(fig2a, fig2b, labels = c('A', 'B')
                       , rel_widths = c(1, 2))

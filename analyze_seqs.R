@@ -142,7 +142,7 @@ if(!file.exists('OBJECTS/gene_trunc_stats.R')){
     n.unique_sequences = n.genes - sum(duplicated(df.gene$SEQUENCE))
 
     v.gene_lens = sapply(df.gene$SEQUENCE, function(x){nchar(x)}) 
-    b.ref_length_passed_cutoff = (v.gene_lens > TRUNCATION_CUTOFF*gene_length)
+    b.ref_length_passed_cutoff = (v.gene_lens > TRUNCATION_CUTOFF*gene_length) # how many genes were longer than TRUNCATION_CUTOFF * gene_length?
     n.trunc = sum(!b.ref_length_passed_cutoff)
     mean_length = mean(v.gene_lens)
     
