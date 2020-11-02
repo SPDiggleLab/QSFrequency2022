@@ -73,8 +73,8 @@ df.lasR_meta$GROUP = ifelse(df.lasR_meta$ENV, 'ENV', df.lasR_meta$SOURCE)
 # Remove Non-CF
 df.lasR_meta = df.lasR_meta[!df.lasR_meta$GROUP == 'non-CF',]
 
-# PLOT --------------------------------------------------------------------
 
+# PLOT --------------------------------------------------------------------
 fig1a = ggplot(df.truncations, aes(x = gene, y = similarity_mean)) + 
   theme_gray(base_size = 14) +
   geom_bar(stat = 'identity', color = 'black') +
@@ -84,7 +84,7 @@ fig1a = ggplot(df.truncations, aes(x = gene, y = similarity_mean)) +
   ylim(c(0, 1.2)) +
   xlab('') + 
   ylab('Normalized Similarity Score') +
-  scale_fill_brewer(palette = 'Paired') +
+  scale_fill_brewer(palette = 'Set1') +
   theme(legend.position = 'none'
         , axis.text.x = element_text(angle = 45, hjust=1, vjust=1))
   
@@ -100,21 +100,23 @@ fig1a3 = ggplot(df.truncations, aes(x = gene)) +
   theme_gray(base_size = 14) +
   geom_bar(color = 'grey30', stat='identity', alpha = 0.4, fill = 'grey10', aes(y = n_unique_strains)) + 
   geom_bar(color = 'black', stat='identity', alpha = 0.9, aes(y = n_unique_seqs, fill = sapply(df.truncations$gene, function(x){substr(x,1,3)}))) + 
-  scale_fill_brewer(palette = 'Paired') +
+  scale_fill_brewer(palette = 'Set1') +
   theme(legend.title=element_blank()) + 
   ylab('n sequences') + 
-  xlab('')
+  xlab('') +
+  theme(legend.position = 'none')
 fig1a3
 
-fig1a4 = ggplot(temp.truncDist_df, aes(x = gene, y = 1-dist, fill = sys)) + 
+fig1a4 = ggplot(temp.truncDist_df, aes(x = gene, y = 1-dist, color = sys)) + 
   theme_gray(base_size = 14) + 
-  geom_boxplot() + 
-  geom_point() + 
-  #scale_y_log10() + 
-  scale_fill_brewer(palette = 'Paired') +
+  #geom_point(alpha=0.7) +
+  geom_jitter(alpha = 0.7) + 
+  scale_color_brewer(palette = 'Set1') +
   theme(legend.title=element_blank()) + 
   xlab('') + 
-  ylab('dissimilarity')
+  ylab('dissimilarity') +
+  facet_grid(.~gene, scale = 'free_x') +
+  theme(legend.position = 'none')
 fig1a4
 
 
@@ -137,8 +139,8 @@ fig2a = ggplot(df.lasR_meta, aes(x = GROUP, fill = TRUNCATED)) +
 
 fig2b = ls.pcas[['lasR']]
 
-fig1_full = plot_grid(fig1a3, fig1b, fig1a4, fig1c
-                      , labels = c('A', 'B', 'C', 'D')
+fig1_full = plot_grid(fig1a3, fig1b, fig1a4, fig1c 
+                      , labels = c('A', 'C', 'B', 'D')
                       , nrow = 2
                       , rel_widths = c(1.5, 1, 1.5, 1))
 fig1_full
@@ -146,10 +148,7 @@ fig2_full = plot_grid(fig2a, fig2b, labels = c('A', 'B')
                       , rel_widths = c(1, 2))
 fig2_full
 
-
-# ad hoc 07.12.2020: what are the % truncations
-lapply(split(df.lasR_meta, df.lasR_meta$GROUP), function(x){
-  sum(x$TRUNCATED == 'TRUNC')/nrow(x)
-})
+ggsave('2020-11-02_fig1-full.png', fig1_full, device = 'png', width = 11, height = 8)
+ggsave('2020-11-02_fig2-full.png', fig2_full, device = 'png', width = 9, height = 5)
 
 
