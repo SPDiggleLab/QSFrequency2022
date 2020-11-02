@@ -42,6 +42,7 @@ for(gene in names(ls.refDist_by_gene)){
 }
 
 temp.truncDist_df = do.call('rbind', temp.truncDist)
+temp.truncDist_df$sys = sapply(temp.truncDist_df$gene, function(x){substr(x,1,3)})
 
 # For Fig 2a
 df.lasR_meta = ls.complete_gene_MetaSeq[['lasR']][,c('GENE', 'HOST', 'SOURCE', 'ENV', 'SEQUENCE')]
@@ -105,15 +106,16 @@ fig1a3 = ggplot(df.truncations, aes(x = gene)) +
   xlab('')
 fig1a3
 
-fig1a4 = ggplot(temp.truncDist_df, aes(x = gene, y = 1-dist, fill = sapply(temp.truncDist_df$gene, function(x){substr(x,1,3)}))) + 
+fig1a4 = ggplot(temp.truncDist_df, aes(x = gene, y = 1-dist, fill = sys)) + 
   theme_gray(base_size = 14) + 
   geom_boxplot() + 
-  scale_y_log10() + 
+  geom_point() + 
+  #scale_y_log10() + 
   scale_fill_brewer(palette = 'Paired') +
   theme(legend.title=element_blank()) + 
   xlab('') + 
   ylab('dissimilarity')
-
+fig1a4
 
 
 fig1b = ls.pcas[['lasR']] +
