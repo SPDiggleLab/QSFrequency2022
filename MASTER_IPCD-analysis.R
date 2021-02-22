@@ -3,9 +3,6 @@ rm(list=ls())
 # CYZ
 # This is a master file for our pipeline.
 
-
-
-
 # (1) Process Raw Inputs --------------------------------------------------
 
 source('process_inputs.R')
@@ -17,6 +14,7 @@ source('parse_inputs.R')
 
 source('analyze_seqs.R')
 
-# (3) Visualizations
+# (3) Visualizations ------------------------------------------------------
 
 source('visualize_distances.R')
+source('visualize_data_overview.R')

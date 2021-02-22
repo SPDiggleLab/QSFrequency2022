@@ -148,7 +148,7 @@ fig2_full = plot_grid(fig2a, fig2b, labels = c('A', 'B')
                       , rel_widths = c(1, 2))
 fig2_full
 
-ggsave('2020-11-02_fig1-full.png', fig1_full, device = 'png', width = 11, height = 8)
-ggsave('2020-11-02_fig2-full.png', fig2_full, device = 'png', width = 9, height = 5)
+ggsave('fig1-full.png', fig1_full, device = 'png', width = 11, height = 8)
+ggsave('fig2-full.png', fig2_full, device = 'png', width = 9, height = 5)
 
 

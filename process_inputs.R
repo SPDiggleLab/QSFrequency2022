@@ -27,7 +27,6 @@ if(!dir.exists('INPUT/labs')){
 # (1) Handle IPCD Files ---------------------------------------------------
 
 # Load IPCD files with column names
-warning("IPCD COLUMN NAMES ARE BACK INFERRED AS OF 04.11.2020")
 ipcd_colnames = c('INFO', 'SEQUENCE', 'MISMATCH', 'GAPS', 'PCT_ID', 'QUERY_COV', 'BIT_SCORE', 'E-VALUE')
 for(file in ipcd_files){
   temp = read_xlsx(paste('INPUT/RAW_INPUTS/', file, sep='', collapse=''), col_names = FALSE)
@@ -43,7 +42,6 @@ for(file in ipcd_files){
 # (2) Handle Lab Files ----------------------------------------------------
 
 # Load Lab files with column names
-warning("LAB COLUMN NAMES ARE BACK INFERRED AS OF 04.11.2020")
 lab_colnames = c('STRAINID', 'COUNTRY', 'ANIMAL', 'SOURCE', 'ENV', 'PI', 'DETAILS')
 for(file in lab_files){
   temp = read_xlsx(paste('INPUT/RAW_INPUTS/', file, sep='', collapse=''), col_names = FALSE)
