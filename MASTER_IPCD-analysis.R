@@ -1,8 +1,12 @@
 rm(list=ls())
-# 04.19.2020
-# CYZ
+# 05.25.2020
+# CYZ & MM
 # This is a master file for our pipeline.
 
+# NUCLEOTIDE ANALYSIS
+source('nucleotide.R')
+
+# PROTEIN ANALYSIS
 # (1) Process Raw Inputs --------------------------------------------------
 
 source('process_inputs.R')
