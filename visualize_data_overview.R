@@ -45,7 +45,7 @@ temp.truncDist_df = do.call('rbind', temp.truncDist)
 temp.truncDist_df$sys = sapply(temp.truncDist_df$gene, function(x){substr(x,1,3)})
 
 # For Fig 2a
-df.lasR_meta = ls.complete_gene_MetaSeq[['lasR']][,c('GENE', 'HOST', 'SOURCE', 'ENV', 'SEQUENCE')]
+df.lasR_meta = ls.complete_gene_MetaSeq[['lasR']][,c('STRAIN', 'GENE', 'HOST', 'SOURCE', 'ENV', 'SEQUENCE')]
 lasR_ref = read.table(paste('INPUT/ref_genes/lasR_PAO1_protein.txt', sep='', collapse='')
                       , stringsAsFactors = F)$V1
 
@@ -72,6 +72,9 @@ df.lasR_meta$GROUP = ifelse(df.lasR_meta$ENV, 'ENV', df.lasR_meta$SOURCE)
 
 # Remove Non-CF
 df.lasR_meta = df.lasR_meta[!df.lasR_meta$GROUP == 'non-CF',]
+
+# Add the distance information from temp.truncDist
+df.lasR_meta$dist = temp.truncDist[['lasR']][df.lasR_meta$STRAIN,'dist']
 
 
 # PLOT --------------------------------------------------------------------
@@ -138,17 +141,22 @@ fig2a = ggplot(df.lasR_meta, aes(x = GROUP, fill = TRUNCATED)) +
   
 
 fig2b = ls.pcas[['lasR']]
+fig2b_b = ggplot(df.lasR_meta, aes(x = GROUP, y = 1-dist, color = GROUP)) + 
+  geom_jitter() + 
+  xlab('') + 
+  ylab("dissimilarity")
 
-fig1_full = plot_grid(fig1a3, fig1b, fig1a4, fig1c 
-                      , labels = c('A', 'C', 'B', 'D')
+fig1_full = plot_grid(fig1a3, fig1a4#, fig1b, fig1c 
+                      , labels = c('A', 'B')#, 'C', 'D')
+                      , byrow = F
                       , nrow = 2
                       , rel_widths = c(1.5, 1, 1.5, 1))
 fig1_full
-fig2_full = plot_grid(fig2a, fig2b, labels = c('A', 'B')
-                      , rel_widths = c(1, 2))
+fig2_full = plot_grid(fig2a, fig2b_b, labels = c('A', 'B')
+                      , rel_widths = c(1, 1.2))
 fig2_full
 
-ggsave('fig1-full.png', fig1_full, device = 'png', width = 11, height = 8)
-ggsave('fig2-full.png', fig2_full, device = 'png', width = 9, height = 5)
+ggsave('fig1-full.png', fig1_full, device = 'png', width = 8, height = 8)
+ggsave('fig2-full.png', fig2_full, device = 'png', width = 7, height = 5)
 
 
