@@ -121,6 +121,15 @@ if(!file.exists('OBJECTS/gene_trunc_stats.R')){
     df.gene = df.gene[(b.ENV|!(b.noSOURCE&b.noHOST)),]
     
     # Remove entries that do not start with 'ATG'
+    if(gene == 'vqsR'){
+      # For vqsR, change to conventional start codon for ease of analysis
+      df.gene$SEQUENCE = sapply(df.gene$SEQUENCE, function(x){
+        ret = x
+        if(substr(ret, 1, 3)=='GTG'){
+          substr(ret,1,2) = 'A'
+        }
+        return(ret)})
+    }
     b.atg = sapply(df.gene$SEQUENCE, function(x){substr(x, 1, 3)!='ATG'})
     df.error = rbind(df.error, df.gene[b.atg,])
     df.gene = df.gene[!b.atg,]

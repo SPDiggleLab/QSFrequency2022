@@ -11,6 +11,8 @@ load('OBJECTS/PCA_VIZ.R')
 
 df.truncations$similarity_mean = NA
 df.truncations$similarity_sd = NA
+df.truncations$per_nucleotide = NA
+
 
 temp.truncDist = list()
 
