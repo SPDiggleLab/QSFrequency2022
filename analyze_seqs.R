@@ -105,7 +105,7 @@ if(!file.exists('OBJECTS/gene_trunc_stats.R')){
     # query gene data
     df.gene = ls.in[[gene]]
     
-    # How many genes pass quality filter?
+    # Total # of genes
     n.allGenes = nrow(df.gene)
     
     # Must have: PI, (ENV|(SOURCE|HOST))
@@ -143,7 +143,7 @@ if(!file.exists('OBJECTS/gene_trunc_stats.R')){
     # Calculate reference gene length
     gene_length = nchar(ref_aminos)*3 # protein sequence * 3
     
-    # Get the number of genes used in the analysis
+    # Number of genes that passed the quality filters
     n.genes = nrow(df.gene)
     
     # Get the number of unique strains/seqs used in the analysis
@@ -159,14 +159,14 @@ if(!file.exists('OBJECTS/gene_trunc_stats.R')){
     df.gene = df.gene[b.ref_length_passed_cutoff,]
     
     # Get number of 
-    ls.truncations[[gene]] = c('gene' = gene
-                               , 'n_base' = gene_length
-                               , 'n_allGenes' = n.allGenes
-                               , 'n_genes' = n.genes
-                               , 'n_unique_strains' = n.unique_strains
-                               , 'n_unique_seqs' = n.unique_sequences
-                               , 'p_incomplete' = (n.trunc+n.gaps)/n.genes
-                               , 'mean_len' = mean_length/gene_length) # save stats
+    ls.truncations[[gene]] = c('gene' = gene                                    # Gene Name
+                               , 'n_base' = gene_length                         # Length of reference 
+                               , 'n_allGenes' = n.allGenes                      # Total number of genes in database
+                               , 'n_genes' = n.genes                            # Number of genes passing quality filter
+                               , 'n_unique_strains' = n.unique_strains          # Number of unique PA strains in database
+                               , 'n_unique_seqs' = n.unique_sequences           # Number of unique sequences found in database
+                               , 'p_incomplete' = (n.trunc+n.gaps)/n.genes      # % of n.genes that are either truncated or have gaps.
+                               , 'mean_len' = mean_length/gene_length)          # (Mean length in database) / (Ref gene length)
     ls.complete_gene_MetaSeq[[gene]] = df.gene # save t
   }
   
