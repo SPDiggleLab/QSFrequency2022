@@ -22,3 +22,8 @@ source('analyze_seqs.R')
 
 source('visualize_distances.R')
 source('visualize_data_overview.R')
+
+# (4) GAMMA analysis, secondary pipline -----------------------------------
+
+source('mutationcleanup.R')
+source('countmutantsGAMMA.R')
